@@ -1,0 +1,43 @@
+HW_1_Python
+
+1) Создать переменную типа String --- String = 'Hello'
+
+2) Создать переменную типа Integer --- Integer = 10
+
+3) Создать переменную типа Float --- Float = 7.5
+
+4) Создать переменную типа Bytes --- Bytes = b'Hello' 
+
+5) Создать переменную типа List --- List = ['1', 'Hello, Python!', 10, 7.5]
+
+6) Создать переменную типа Tuple --- Tuple = ('1', 'Hello', 10, 7.5)
+
+7) Создать переменную типа Set --- Set = {'1', 'Hello, World!', 10, 7.5}
+
+8. Создать переменную типа Frozen set --- Frozen_set = Frozenset('Frozen Set')
+
+9) Создать переменную типа Dict --- Dictionary = dict( First ='One', Second ='Two', Third ='Three')
+
+10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных ---
+print(String, type(String))
+print(Integer, type(Integer))
+print(Float, type(Float))
+print(Bytes, type(Bytes))
+print(List, type(List))
+print(Tuple, type(Tuple))
+print(Set, type(Set))
+print(Frozen_set, type(Frozen_set))
+print(Dictionary, type(Dictionary))
+
+11) Создать 2 переменные String, создать переменную в которой конкатенируете эти переменные. Вывести в консоль --- 
+Str_1 = 'Hello, '
+Str_2 = 'Python!'
+Str_3 = Str_1 + Str_2
+print(Str_3)
+
+12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую) --- print(String, Integer)
+
+13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс) --- print(String + ' ' + str(Integer))
+
+
+
